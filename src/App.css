@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", sans-serif;
+  text-align: center;
+}
+
+#root {
+  width: 100%;
+}
+
+/* Profile */
+.profile {
+  background-color: hsl(0, 0%, 8%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+/* Akhir Profile */
+
+/* Card */
+.card {
+  box-shadow: 10px 10px 10px black;
+  width: 20rem;
+  background-color: hsl(0, 0%, 12%);
+}
+
+.card-body {
+  background-color: hsl(0, 0%, 12%);
+}
+/* Akhir Card */
+
+/* Judul */
+h4 {
+  font-weight: 600;
+  color: hsl(0, 0%, 100%);
+}
+
+p.alamat {
+  color: hsl(75, 94%, 57%);
+}
+/* Akhir judul */
+
+/* Subjudul */
+p.subJudul {
+  color: gray;
+}
+/* Akhir Subjudul */
+
+/* Paragraf */
+p {
+  font-size: 14px;
+}
+/* Akhir Paragraf */
+
+/* icon */
+i {
+  margin-left: 5px;
+}
+/* Akhir icon */
+
+/* Images */
+img {
+  border-radius: 100%;
+  width: 90px;
+  padding: 5px;
+}
+/* Akhir images */
+
+/* Aplikasi */
+.aplikasi {
+  padding: 10px;
+}
+
+.btn {
+  box-shadow: 5px 5px 5px black;
+  height: 35px;
+  width: 100%;
+}
+
+.btn:hover {
+  transition: 0.3s;
+  transform: scale(1.1);
+  color: white;
+  font-weight: 700;
+}
+
+.github .btn:hover {
+  background-color: black;
+}
+
+.frontend .btn:hover {
+  background-color: white;
+  color: black;
+}
+
+.linkedin .btn:hover {
+  background-color: #0e76a8;
+}
+
+.facebook .btn:hover {
+  background-color: #1877f2;
+}
+
+.instagram .btn:hover {
+  background-image: linear-gradient(
+    to bottom right,
+    #515bd4,
+    #8134af,
+    #dd2a7b,
+    #f58529,
+    #feda77
+  );
+}
+/* Akhir aplikasi */
